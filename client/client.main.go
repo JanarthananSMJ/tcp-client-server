@@ -11,7 +11,7 @@ import (
 func main() {
 	// IMPORTANT: If the server is on a different machine on your local network,
 	// replace "localhost:8080" with the server's local IP address, e.g., "192.168.1.10:8080".
-	serverAddress := "localhost:8080"
+	serverAddress := "192.168.1.41:8080"
 
 	// 1. Connect to the server.
 	conn, err := net.Dial("tcp", serverAddress)
